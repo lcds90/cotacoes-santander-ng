@@ -1,0 +1,8 @@
+.stocks-container {
+    width: 100%;
+    display:grid;
+    padding: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;   
+    justify-items: center;
+    gap: 1rem;
+}

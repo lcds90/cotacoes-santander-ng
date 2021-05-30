@@ -1,0 +1,73 @@
+@import '../../../variables.scss';
+
+.stock-card {
+    width: 21.375rem;
+    height: 13.75rem;
+    background-color: $secondary-color;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.3125rem 0.3125rem rgba(187, 187, 187, 0.274);
+    padding: 1.2rem;
+    border-left: solid $positive-variation-color 4px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            margin: 0;
+            color: $text-color;
+        }
+
+        p {
+            margin:0;
+            color: $text-color-light;
+            font-weight: 600;
+            letter-spacing: 0.0625rem;
+        }
+
+    }
+
+    &__value {
+        width: 75%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+        .value {
+            font-size: 2.5rem;
+            color: $text-color;
+        }
+
+        .variation {
+            font-size:1.25rem;
+            background-color: $positive-variation-color;
+            color: $text-color-white;
+            padding: 0.5rem 1rem;
+            border-radius: 1.5625rem;
+            align-self: flex-end;
+            margin-top: 0.125rem;
+            font-style: italic;
+            font-weight: 600;
+            box-shadow: 0 0.125rem 0.9375rem $positive-variation-color-shadow;
+            border: 0.125rem solid rgba(61, 61, 61, 0.25);
+        }
+
+        .negative-variation {
+          background-color: $negative-variation-color;
+        }
+    }
+
+}
+
+.negative-variation-border {
+  border-left: solid $negative-variation-color 4px;
+}

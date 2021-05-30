@@ -1,0 +1,23 @@
+@import '../../../../variables.scss';
+.header {
+    width: 100%;
+    background-color: $primary-color;
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+        background: $background-color;
+        padding: 0.5rem;
+        box-shadow: 0 0.3125rem 0.125rem #2e020473;
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet){
+    .header {
+        justify-content: center;
+    }
+}
