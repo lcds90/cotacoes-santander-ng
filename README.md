@@ -39,5 +39,8 @@ O projeto consiste em um sistema financeiro de cotação trazendo para a visuali
         <p>
         Com o sistema de rotas, é possível renderizar componentes específicos dependendo da rota utilizada.
         </p>
+        <p>
+          <a href="https://www.notion.so/Material-de-Apoio-Bootcamp-Santander-4b731275cc9b499d90fe5f8b6a75e3bd">Material de apoio para consulta futuramente</a>
+        </p>
     </div>
 </details>
